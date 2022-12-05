@@ -1,0 +1,27 @@
+$primary-color: #2855ac;
+$secondary-color: #ffc900;
+$dark-primary-color: #234d9f;
+$white-color: #fff;
+$slate-gray-color: #5f6b76;
+$blue-gray-color: #8e9fad;
+$line-color: #dee3ed;
+$black-color: #253342;
+$separator-color: #d4d5da;
+$sun-rectangle-color: linear-gradient(
+  90deg,
+  rgba(254, 195, 5, 1) 37%,
+  rgba(247, 142, 50, 1) 63%
+);
+
+$sun-rectangle-color-changed: linear-gradient(
+  90deg,
+  rgba(0, 158, 216, 1) 37%,
+  rgba(55, 134, 223, 1) 63%
+);
+
+$step-1-color: #faa520;
+$step-2-color: #fab217;
+$step-3-color: #fbc810;
+$step-1-color-changed: #009ed8;
+$step-2-color-changed: #21aadc;
+$step-3-color-changed: #37b2df;

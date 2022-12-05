@@ -1,0 +1,56 @@
+@import "../../style/Variables.scss";
+
+.modal-container {
+  height: 130px;
+  padding: 20px 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  border: 2px solid $line-color;
+  margin-top: 80px;
+  .features-left {
+    h1 {
+      width: 240px;
+      height: 32px;
+
+      font-family: GreycliffCF;
+      font-size: 24px;
+      font-weight: 700;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.33;
+      letter-spacing: normal;
+      color: $black-color;
+    }
+  }
+
+  .features-right {
+    width: 1000px;
+    ul {
+      display: flex;
+      justify-content: space-evenly;
+      li {
+        button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          img {
+            width: 50px;
+          }
+          span {
+            width: 185px;
+            font-size: 14px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.33;
+            letter-spacing: normal;
+            color: $black-color;
+          }
+        }
+      }
+    }
+  }
+}

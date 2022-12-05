@@ -1,0 +1,89 @@
+@import "../../style/Variables.scss";
+
+.greetings-area {
+  position: relative;
+  margin-top: 100px;
+
+  .step-1 {
+    position: absolute;
+    left: 200px;
+    width: 550px;
+    height: 550px;
+    bottom: -60px;
+    background: $step-1-color;
+    border-radius: 50%;
+    opacity: 0.4;
+
+    .step-2 {
+      position: absolute;
+      left: 75px;
+      width: 400px;
+      height: 400px;
+      background: $step-2-color;
+      bottom: 76px;
+      border-radius: 50%;
+
+      .step-3 {
+        position: absolute;
+        left: 75px;
+        width: 250px;
+        height: 250px;
+        bottom: 75px;
+        background: $step-3-color;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .step-1-changed {
+    background: $step-1-color-changed;
+    .step-2-changed {
+      background: $step-2-color-changed;
+      .step-3-changed {
+        background: $step-3-color-changed;
+      }
+    }
+  }
+
+  .selo-img {
+    width: 125px;
+    height: 165px;
+    position: absolute;
+    left: 415px;
+
+    bottom: 140px;
+    object-fit: contain;
+    z-index: 1;
+  }
+  .sun-rectangle {
+    width: 980px;
+    height: 200px;
+    margin: 90px 0 0;
+    position: relative;
+    object-fit: contain;
+    background: $sun-rectangle-color;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .sun-rectangle-changed {
+    background: $sun-rectangle-color-changed;
+  }
+
+  h2 {
+    position: absolute;
+    left: 300px;
+    top: 100px;
+    width: 357px;
+    height: 32px;
+    font-family: GreycliffCF;
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: center;
+    color: $white-color;
+  }
+}

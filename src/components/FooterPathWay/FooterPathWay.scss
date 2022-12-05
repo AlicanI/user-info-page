@@ -1,0 +1,28 @@
+@import "../../style/Variables.scss";
+
+.footer-container {
+  background: $dark-primary-color;
+  height: 82px;
+  padding-left: 130px;
+  padding-top: 40px;
+
+  .path {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 24px;
+
+    font-family: GreycliffCF;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: $white-color;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

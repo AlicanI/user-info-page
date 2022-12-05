@@ -1,0 +1,42 @@
+@import "./style/fonts.scss";
+@import "./style/Variables.scss";
+
+* {
+  box-sizing: border-box;
+  widows: 100%;
+}
+
+html {
+  font-family: "GreycliffCF";
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+i {
+  background-color: none;
+  padding: 0;
+  margin: 0;
+}
