@@ -6,17 +6,15 @@ const UserMobile = () => {
   return (
     <Card className={"user-info-area-mobile"}>
       <div className="user-info-area-mobile__top">
-        <div className="user-info-area__fullname ">
+        <div className="user-info-area-mobile__fullname ">
           <h4>Adı Soyadı</h4>
           <span>Ezgi Dirik</span>
         </div>
-        <div className="user-info-area__number ">
-          {/* <h4>Taşıma Talebinde Bulunduğunuz Numara</h4> */}
+        <div className="user-info-area-mobie__number ">
           <h4>Taşınma Talebinde Bulunduğunuz Numara</h4>
           <span>554 239 70 14</span>
         </div>
-        <div className="user-info-area__packet ">
-          {/* <h4>Seçmiş olduğunuz Paketiniz</h4> */}
+        <div className="user-info-area-mobile__packet ">
           <h4>Seçmiş Olduğunuz Paket</h4>
           <span>Turbo 12GB Faturalı 90 TL</span>
         </div>

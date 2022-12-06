@@ -1,0 +1,29 @@
+.turkcell-mobile-features-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  .features-mobile-bottom {
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      li {
+        button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 20px;
+          img {
+            width: 100px;
+            height: 100px;
+          }
+
+          span {
+            font-weight: bolder;
+          }
+        }
+      }
+    }
+  }
+}

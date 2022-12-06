@@ -12,6 +12,7 @@ import NavigationMobile from "../Mobile/components/NavigationMobile/NavigationMo
 import GreetingsAreaMobile from "../Mobile/components/GreetingsAreaMobile/GreetingsAreaMobile";
 import UserMobile from "../Mobile/components/UserMobile/UserMobile";
 import Card from "../Mobile/UI/Card/Card";
+import TurkcellFeaturesMobile from "../Mobile/components/TurkcellFeaturesMobile/TurkcellFeaturesMobile";
 
 export {
   BigComponent,
@@ -27,4 +28,5 @@ export {
   GreetingsAreaMobile,
   Card,
   UserMobile,
+  TurkcellFeaturesMobile,
 };

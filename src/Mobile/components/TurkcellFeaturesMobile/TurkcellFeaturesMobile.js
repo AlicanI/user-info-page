@@ -1,19 +1,21 @@
+import React from "react";
+
 import {
   alertIconRadial,
   cardIconRadial,
   changeIconRadial,
   turkcellIconRadial,
-} from "../../exporter/imgExporter";
+} from "../../../exporter/imgExporter";
 
-import "./TurkcellFeatures.scss";
+import "./TurkcellFeaturesMobile.scss";
 
-const TurkcellFeatures = () => {
+const TurkcellFeaturesMobile = () => {
   return (
-    <div className="turkcell-features-container">
-      <div className="features-left">
+    <div className="turkcell-mobile-features-container">
+      <div className="features-mobile-top">
         <h1>Turkcell'de neler var?</h1>
       </div>
-      <div className="features-right">
+      <div className="features-mobile-bottom">
         <ul>
           <li>
             <button>
@@ -45,4 +47,4 @@ const TurkcellFeatures = () => {
   );
 };
 
-export default TurkcellFeatures;
+export default TurkcellFeaturesMobile;

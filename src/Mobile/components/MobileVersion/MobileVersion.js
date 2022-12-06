@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import {
   NavigationMobile,
+  TurkcellFeaturesMobile,
   UserInfoAreaMobile,
 } from "../../../exporter/exporter";
 
@@ -13,6 +14,9 @@ const MobileVersion = () => {
       <main>
         <UserInfoAreaMobile />
       </main>
+      <footer>
+        <TurkcellFeaturesMobile />
+      </footer>
     </Fragment>
   );
 };
