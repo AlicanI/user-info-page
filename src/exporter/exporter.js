@@ -10,6 +10,8 @@ import MobileVersion from "../Mobile/components/MobileVersion/MobileVersion";
 import UserInfoAreaMobile from "../Mobile/components/UserInfoAreaMobile/UserInfoAreaMobile";
 import NavigationMobile from "../Mobile/components/NavigationMobile/NavigationMobile";
 import GreetingsAreaMobile from "../Mobile/components/GreetingsAreaMobile/GreetingsAreaMobile";
+import UserMobile from "../Mobile/components/UserMobile/UserMobile";
+import Card from "../Mobile/UI/Card/Card";
 
 export {
   BigComponent,
@@ -23,4 +25,6 @@ export {
   NavigationMobile,
   UserInfoAreaMobile,
   GreetingsAreaMobile,
+  Card,
+  UserMobile,
 };

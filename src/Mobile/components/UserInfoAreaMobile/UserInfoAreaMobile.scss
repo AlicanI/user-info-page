@@ -1,11 +1,11 @@
 @import "../../../style/Variables.scss";
 
 .mid-body-container-mobile {
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 50px;
 
   .change-button {
     width: 100px;

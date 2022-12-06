@@ -13,6 +13,7 @@
     background: $step-1-color;
     border-radius: 50%;
     opacity: 0.4;
+    transition: all 0.8s;
 
     .step-2 {
       position: absolute;
@@ -22,6 +23,7 @@
       background: $step-2-color;
       bottom: 76px;
       border-radius: 50%;
+      transition: all 0.8s;
 
       .step-3 {
         position: absolute;
@@ -31,6 +33,7 @@
         bottom: 75px;
         background: $step-3-color;
         border-radius: 50%;
+        transition: all 0.8s;
       }
     }
   }
@@ -64,6 +67,7 @@
     background: $sun-rectangle-color;
     border-radius: 10px;
     overflow: hidden;
+    transition: all 0.8s;
   }
 
   .sun-rectangle-changed {

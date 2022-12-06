@@ -1,6 +1,7 @@
 @import "../../../style/Variables.scss";
 
 .greetings-area-mobile {
+  position: relative;
   .step-1 {
     position: absolute;
     left: -34px;
@@ -10,6 +11,7 @@
     background: $step-1-color;
     border-radius: 50%;
     opacity: 0.4;
+    transition: all 0.8s;
 
     .step-2 {
       position: absolute;
@@ -19,6 +21,7 @@
       background: $step-2-color;
       bottom: 65px;
       border-radius: 50%;
+      transition: all 0.8s;
 
       .step-3 {
         position: absolute;
@@ -28,14 +31,15 @@
         bottom: 60px;
         background: $step-3-color;
         border-radius: 50%;
+        transition: all 0.8s;
       }
     }
   }
 
   .fikriye-img {
     position: absolute;
-    left: 140px;
-    top: 135px;
+    left: 125px;
+    top: 10px;
     width: 62px;
     height: 110px;
     z-index: 1;
@@ -52,7 +56,7 @@
   }
 
   .sun-rectangle-changed {
-    background: $sun-rectangle-color-changed;
+    background: $sun-rectangle-color-changed !important;
   }
 
   .sun-rectangle {
@@ -62,17 +66,18 @@
     align-items: center;
     width: 328px;
     height: 235px;
-    margin: 90px 0 0;
+    margin: 40px 0 0;
     position: relative;
     object-fit: contain;
     background: $sun-rectangle-color;
     border-radius: 10px;
     overflow: hidden;
+    transition: all 0.8s;
 
     h2 {
       text-align: center;
       width: 200px;
-      margin-top: 80px;
+      margin-top: 50px;
       color: $white-color;
       z-index: 1;
     }

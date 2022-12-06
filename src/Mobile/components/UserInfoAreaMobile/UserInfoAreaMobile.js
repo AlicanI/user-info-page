@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { GreetingsAreaMobile } from "../../../exporter/exporter";
+import { GreetingsAreaMobile, UserMobile } from "../../../exporter/exporter";
 import "./UserInfoAreaMobile.scss";
 
 const UserInfoAreaMobile = () => {
@@ -15,10 +15,11 @@ const UserInfoAreaMobile = () => {
 
   return (
     <div className="mid-body-container-mobile">
-      <button className="change-button" onChange={colorChangeHandler}>
+      <button className="change-button" onClick={colorChangeHandler}>
         Change Color
       </button>
       <GreetingsAreaMobile color={changeColor} />
+      <UserMobile />
     </div>
   );
 };
